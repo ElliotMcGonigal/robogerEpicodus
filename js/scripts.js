@@ -14,6 +14,14 @@ function beepBoop(input) {
       returnArray.push(i);
     }
   }
-  console.log(returnArray);
+  return returnArray;
 }
-beepBoop(13);
+
+$(document).ready(function() {
+  $("form#formA").submit(function(event) {
+    event.preventDefault();
+    const userInput = $("#userInput").val();
+    const userArray = beepBoop(userInput);
+    console.log(userArray);
+  });
+});
