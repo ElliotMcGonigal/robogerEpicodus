@@ -22,6 +22,15 @@ $(document).ready(function() {
     event.preventDefault();
     const userInput = $("#userInput").val();
     const userArray = beepBoop(userInput);
+    let boopString = "";
+    userArray.forEach(function(element, index, array) {
+      if(index !== array.length - 1) {
+        boopString = boopString + element + ", ";
+      } else {
+        boopString = boopString + element;
+      }
+    })
+    console.log(boopString);
     console.log(userArray);
   });
 });
