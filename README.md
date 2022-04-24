@@ -1,3 +1,18 @@
+# Mr Roboger's Neighborhood
+#### Project by Elliot McGonigal
+## Description
+This webpage will take in a number an count up to it replacing some numbers with other phrases as it goes along.
+## Technologies Used
+* HTML
+* Bootstrap
+* javascript
+* jQuery
+## Setup
+1. 
+## Known Bugs
+No known bugs
+## License
+GNU gpl 3.0 view LICENSE for more details
 ### Specs
 Describe: beepBoop()
 
