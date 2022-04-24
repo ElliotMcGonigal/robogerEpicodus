@@ -16,5 +16,3 @@ Expected Output: [0,Beep!,Boop!,3,4,5,6,7,8,9,Beep!,Beep!,Boop!,Beep!]
 Test: "It should also replace numbers containing '3' with 'Won't you be my neighbor?' as a higher priority"
 Code: beepBoop(13);
 Expected Output: [0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?]
-
-Test:
