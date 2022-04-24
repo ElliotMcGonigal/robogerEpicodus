@@ -8,7 +8,12 @@ This webpage will take in a number an count up to it replacing some numbers with
 * javascript
 * jQuery
 ## Setup
-1. 
+1. Set up a coding environment. I'd recommend VSCode. 
+2. Clone this repository using 'git clone https://github.com/ElliotMcGonigal/robogerEpicodus'
+3. Launch the website in your browser. This can be done by using live server or just opening the index.html file.
+4. Enter a number into the field. This is the number that will be looped through.
+5. Hit 'Generate!'. You will now see the string generated from the number below.
+6. Enjoy!
 ## Known Bugs
 No known bugs
 ## License
