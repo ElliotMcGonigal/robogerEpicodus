@@ -30,6 +30,6 @@ $(document).ready(function() {
         boopString = boopString + element;
       }
     })
-    $("ul#display").append("<li>",boopString,"</li>");
+    $("p#display").html(boopString);
   });
 });
